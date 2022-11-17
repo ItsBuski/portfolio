@@ -1,0 +1,223 @@
+:root
+{
+    --negro: #000000;
+    --negro-purpura: #4c00ae;
+    --purpura-oscuro: #7b228f;
+    --purpura: #d100ff;
+    --purpura-claro: #e985ff;
+    --blanco: #ffffff;
+}
+body
+{
+    font-family: 'Merriweather';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: white;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 2fr .1fr 1fr;
+    padding: 2rem 0rem 1rem 0rem;
+    background: rgb(109,60,172);
+    background: linear-gradient(180deg, rgba(109,60,172,1) 17%, rgba(76,0,175,1) 48%, rgba(56,0,129,1) 86%);
+}
+.container h1
+{
+    display: flex;
+    align-self:center;
+}
+.name
+{
+    font-family: 'Orbitron';
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: .8fr;
+    align-items: flex-start;
+    justify-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: rgba(255, 255, 255, 0.463) 0px 0px 5px, rgba(255, 255, 255, 0.467) 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.linea0
+{
+    align-self: center;
+    justify-self: center;
+    width: 1rem;
+    height: 20rem;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffadd6;
+}
+.name .img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.navegation
+{
+    display: grid;
+    align-items: center;
+}
+.linked
+{
+    font-family: 'Orbitron';
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+}
+.link a:link, a
+{
+    color: #FFFFFF;
+    text-shadow: rgba(255, 255, 255, 0.419) 0px 0px 5px, rgba(255, 255, 255, 0.439) 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #000000;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.imagencabecera
+{
+    background-image: url('/img/programadores.jpg');
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagencabecera h2
+{
+    margin: 0;
+}
+
+
+.content
+{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    background-image: url('/img/neongif.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2500px;
+    background-position: -30rem;
+}
+.content img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #ffadd6;
+}
+.content p
+{
+    margin: 2rem 0rem 2rem 0rem;
+}
+.content h1
+{
+    margin: 0;
+    font-family: 'Orbitron';
+    text-shadow: rgba(255, 255, 255, 0.419) 0px 0px 5px, rgba(255, 255, 255, 0.439) 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.servicesandprojects
+{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    width: 88.5%;
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: center;
+}
+.services
+{
+    margin-left: 1rem;
+}
+.services p
+{
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+}
+.myservices
+{
+    margin-left: 1rem;
+}
+.projects
+{
+    margin-left: 1rem;
+}
+.projects p
+{
+    margin: 2rem 0rem 2rem 0rem;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+}
+.myprojects
+{
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+
+.contact
+{
+    display: block;
+    justify-content: start;
+}
+.about
+{
+    margin-left: 1rem;
+}
+.aboutme
+{
+    width: 84%;
+    margin-left: 1rem;
+    padding: 5rem 5rem 2rem 5rem;
+    border-radius: 15px;
+}
+.contact
+{
+    margin-left: 1rem;
+}
+.contactme
+{
+    margin-left: 6rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr .1fr 1fr;
+    align-items: center;
+    gap: 15rem;
+}
+.form
+{
+    width: 100%;
+}
+.form .input-text
+{
+    width: 100%;
+}
+.form textarea
+{
+    resize: none;
+    height: 5rem;
+}
+.links
+{
+    display: grid;
+    gap: 0;
+}
+.links h2
+{
+    font-family: 'Orbitron';
+}
